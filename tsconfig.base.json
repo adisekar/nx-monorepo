@@ -14,7 +14,17 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@test/api/util-interfaces": ["libs/api/util-interfaces/src/index.ts"],
+      "@test/store/feature-game-detail": [
+        "libs/store/feature-game-detail/src/index.ts"
+      ],
+      "@test/store/ui-shared": ["libs/store/ui-shared/src/index.ts"],
+      "@test/store/util-formatters": [
+        "libs/store/util-formatters/src/index.ts"
+      ],
+      "@test/ui-shared": ["libs/ui-shared/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
